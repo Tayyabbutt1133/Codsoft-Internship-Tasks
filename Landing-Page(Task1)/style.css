@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+}
+.small-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+.left {
+  margin-left: 88px;
+}
+.mid {
+  margin-left: 744px;
+}
+.right {
+  margin-right: 88px;
+}
+.navbar {
+  padding: 49px;
+  border: 2px solid red;
+  height: 2px;
+}
+.nav-left img {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 8px;
+}
+.nav-left .mainlogo {
+  padding: 11px;
+  margin-top: -101px;
+  margin-left: 51px;
+}
+.nav-mid ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: -101px;
+  margin-left: 521px;
+  padding: 8px;
+  text-align: center;
+  margin-top: -139px;
+}
+.nav-mid ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 28px;
+  color: gray;
+}
+.nav-mid ul li a:hover {
+  color: black;
+}
+.nav-right ul {
+  border: 2px solid red;
+  width: 109px;
+  margin-left: 1355px;
+  margin-top: -44px;
+  border-radius: 18px;
+  padding: 16px;
+  background-color: #ffbbc7;
+}
+.nav-right ul li {
+  list-style: none;
+}
+.nav-right ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 6px;
+  color: white;
+}
+.nav-right ul li a:hover {
+  color: black;
+}
+.background-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the container to take the full viewport height */
+  background-color: #f0f0f0; /* Fallback background color in case the image is not loaded */
+  position: relative; /* Required for positioning the text */
+}
+.back-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 685px;
+}
+.text {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 38%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  width: 441px;
+  height: 156px;
+}
+.text .paragraph {
+  width: 572px;
+  top: 3px;
+  margin-top: 38px;
+  font-style: italic;
+}

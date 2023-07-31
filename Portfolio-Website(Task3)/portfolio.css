@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(7, 7, 40);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(13, 13, 88);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 10px 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul :hover {
+  color: blueviolet;
+}
+.left {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.firstsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 0px;
+  height: 370px;
+}
+.leftsection {
+  font-size: 2.5rem;
+}
+/* .rightsection
+{
+    
+} */
+.firstsection > div {
+  width: 30%;
+}
+.rightsection img {
+  width: 546px;
+  height: 400px;
+}
+.Purple {
+  color: blueviolet;
+}
+.para {
+  font-size: 19px;
+  margin-top: 14px;
+  font-style: italic;
+}
+
+.leftsection {
+  margin-top: 50px;
+}
+#element {
+  color: blueviolet;
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 450px;
+}
+hr {
+  border: 0;
+  background: blueviolet;
+  height: 1.2px;
+  margin: 23px 84px;
+}
+.text-gray {
+  color: gray;
+}
+.secondsection .box {
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondsection .vertical {
+  height: 96px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+}
+.title {
+  position: relative;
+  top: 96px;
+  width: 150px;
+}
+.desc {
+  position: relative;
+  top: 104px;
+  color: gray;
+  width: 157px;
+  font-size: 9px;
+}
+.vertical-img {
+  position: relative;
+  width: 23px;
+  top: -32px;
+  left: -9px;
+}
+.thirdsection {
+  margin: 80px 572px;
+  border: 2px solid #241a68;
+  width: 449px;
+  height: 250px;
+  border-radius: 48px;
+  background: #070617;
+}
+.resume {
+}
+.resume p {
+  margin: 14px 35px;
+  font-style: italic;
+  width: 384px;
+}
+.resume h1 {
+  font-size: 2.5rem;
+  margin: 28px 57px;
+}
+.resume button {
+  margin: 13px 157px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.fourthsection {
+  height: 342px;
+}
+.category {
+  border: 2px solid;
+  width: 349px;
+  height: 154px;
+  border-radius: 37px;
+  margin-top: 44px;
+  margin-left: 614px;
+  background-color: black;
+}
+.Services .serhead {
+  margin: 38px 634px;
+  width: 350px;
+  height: 67px;
+  font-size: 38px;
+  font-style: unset;
+  font-weight: normal;
+}
+.category p {
+  margin: -7px 53px;
+  font-style: italic;
+  width: 384px;
+}
+.category h1 {
+  margin: 19px 47px;
+  font-size: 18px;
+  width: 272px;
+}
+.category button {
+  margin: 21px 131px;
+  padding: 6px 20px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#elem {
+  color: blueviolet;
+  margin-left: 450px;
+  margin-top: -50px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(13, 13, 88);
+}
+.footer-left {
+  margin-top: 21px;
+  margin-left: 596px;
+  display: flex;
+  font-style: italic;
+}
+.footer-right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-right ul li {
+  list-style: none;
+  margin: 10px 23px;
+}
+.footer-right ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-right ul :hover {
+  color: blueviolet;
+}
